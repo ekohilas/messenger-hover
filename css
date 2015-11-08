@@ -1,3 +1,8 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("www.messenger.com") {
+/*Source can be found at https://github.com/ekohilas/messenger-hover */
+
 /*no idea*/
 ._2ogr::before {
     content: none
@@ -82,7 +87,7 @@
 }
 ._1enh:hover ._5iwm {
     display: block
-	
 }
 visibility: hidden/visible
 */
+}
