@@ -1,0 +1,88 @@
+/*no idea*/
+._2ogr::before {
+    content: none
+}
+._1enh:hover ._2ogr::before {
+    content: ''
+}
+
+/*non icon stuff*/
+._1ht5 ._1qt4,
+.safari.webkit ._1ht5 ._1qt4,
+.ie10 ._1ht5 ._1qt4 {
+    display: none
+}
+._1enh:hover ._1ht5 ._1qt4,
+._1enh:hover .safari.webkit ._1ht5 ._1qt4,
+._1enh:hover .ie10 ._1ht5 ._1qt4 {
+    display: flex
+}
+
+/*side bar size change*/
+._1enh {
+    flex-basis: 74px;
+    min-width: 74px;
+	-webkit-animation-property: -webkit-width;
+  	-webkit-transition-duration: 0.1s;
+    -moz-animation-property: -webkit-width;
+  	-moz-transition-duration: 0.1s; 
+	-o-animation-property: -webkit-width;
+  	-o-transition-duration: 0.1s;
+}
+.safari.webkit ._1enh {
+    -webkit-flex-basis: 74px
+}
+._1enh:hover {
+    flex: 0 0 25%;
+    max-width: 420px;
+    min-width: 320px;
+}
+
+/*hide "messenger" text*/
+._36ic ._1tqi {
+    display: none
+}
+._1enh:hover ._36ic ._1tqi {
+    display: inline-block
+}
+
+/*messenger header centering*/
+._36ic {
+    justify-content: center
+}
+.safari.webkit ._36ic {
+    -webkit-justify-content: center
+}
+._1enh:hover ._36ic {
+    justify-content: space-between
+}
+._1enh:hover .safari.webkit ._36ic {
+    -webkit-justify-content: space-between
+}
+
+/*new message tab*/
+._1bqr {
+    display: none
+}
+._1enh:hover ._1bqr {
+    display: inline-block;
+}
+
+/*option gear*/
+._4kzu {
+    display: none
+}
+._1enh:hover ._4kzu {
+    display: inline-block
+}
+
+/* hides search bar
+._5iwm {
+    display: none
+}
+._1enh:hover ._5iwm {
+    display: block
+	
+}
+visibility: hidden/visible
+*/
