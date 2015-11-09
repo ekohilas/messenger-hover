@@ -12,32 +12,35 @@
 }
 
 /*non icon stuff*/
-._1ht5 ._1qt4 {
-    display: none !important;
+._1ht5 ._1qt4,
+.safari.webkit ._1ht5 ._1qt4,
+.ie10 ._1ht5 ._1qt4 {
+    display: none
 }
-._1enh:hover ._1ht5 ._1qt4 {
-    display: flex !important;
-}
-.safari.webkit ._1enh:hover ._1ht5 ._1qt4 {
-    display: -webkit-flex !important;
+._1enh:hover ._1ht5 ._1qt4,
+._1enh:hover .safari.webkit ._1ht5 ._1qt4,
+._1enh:hover .ie10 ._1ht5 ._1qt4 {
+    display: flex
 }
 
 /*side bar size change*/
 ._1enh {
     flex-basis: 74px;
     min-width: 74px;
-    transition: flex-basis 0.1s, min-width 0.1s;
+	-webkit-animation-property: -webkit-width;
+  	-webkit-transition-duration: 0.1s;
+    -moz-animation-property: -webkit-width;
+  	-moz-transition-duration: 0.1s; 
+	-o-animation-property: -webkit-width;
+  	-o-transition-duration: 0.1s;
 }
 .safari.webkit ._1enh {
-    -webkit-flex-basis: 74px;
-    -webkit-transition: -webkit-flex-basis 0.1s, min-width 0.1s;
+    -webkit-flex-basis: 74px
 }
 ._1enh:hover {
-    flex-basis: 20%;
+    flex: 0 0 25%;
+    max-width: 420px;
     min-width: 320px;
-}
-.safari.webkit ._1enh:hover {
-    -webkit-flex-basis: 20%;
 }
 
 /*hide "messenger" text*/
