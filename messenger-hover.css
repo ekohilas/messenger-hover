@@ -11,6 +11,11 @@
     content: ''
 }
 
+/*unread color*/
+._1ht3._1ht1 {
+    background-color: rgba(0, 132, 255, .2);
+    -webkit-transition: background-color .5s
+}
 /*non icon stuff*/
 ._1ht5 ._1qt4 {
     display: none !important;
@@ -33,11 +38,12 @@
     -webkit-transition: -webkit-flex-basis 0.1s, min-width 0.1s;
 }
 ._1enh:hover {
-    flex-basis: 20%;
-    min-width: 320px;
+    flex-basis: 25%;
+    max-width: 420px;
+	min-width: 320px;
 }
 .safari.webkit ._1enh:hover {
-    -webkit-flex-basis: 20%;
+    -webkit-flex-basis: 25%;
 }
 
 /*hide "messenger" text*/
