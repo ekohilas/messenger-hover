@@ -37,14 +37,15 @@
     -webkit-flex-basis: 74px;
     -webkit-transition: -webkit-flex-basis 0.1s, min-width 0.1s;
 }
+  
+/* customizable sizing */
 ._1enh:hover {
     flex-basis: 25%;
     max-width: 420px;
-	min-width: 320px;
+    min-width: 320px;
 }
 .safari.webkit ._1enh:hover {
     -webkit-flex-basis: 25%;
-}
 
 /*hide "messenger" text*/
 ._36ic ._1tqi {
@@ -87,13 +88,43 @@
     display: inline-block
 }
 
-/* hides search bar
-._5iwm {
-    display: none
+/* icon toggle*/
+/* on
+._1enh:hover ._2j6{
+    -webkit-transition-duration: 0.1s !important;
+    bottom: 16px !important;
+    right: 10px !important;
 }
-._1enh:hover ._5iwm {
-    display: block
+._2j6{
+    -webkit-transition-duration: 0.1s !important;
+    bottom: 9px !important;
+    right: 11px !important;
 }
-visibility: hidden/visible
+*/
+/* off
+._1enh:hover ._2j6{
+    -webkit-transition-duration: 0.1s !important;
+    -webkit-transition-delay: 0.1s !important;
+    visibility: visible !important;
+}
+._2j6{
+    visibility: hidden !important;
+}
+*/
+
+/*search bar toggle*/
+/* on
+._5iwm{
+    -webkit-transition-duration: 0.1s !important;
+    height: 0px !important;
+    padding: 0px !important;
+    visibility: hidden !important;
+}
+._1enh:hover ._5iwm{
+    -webkit-transition-duration: 0.1s;
+    height: 100% !important;
+    padding: 12px !important;
+    visibility: visible !important;
+}
 */
 }
