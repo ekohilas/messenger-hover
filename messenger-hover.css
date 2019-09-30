@@ -88,6 +88,19 @@
     display: inline-block
 }
 
+/* on top toggle by mmacq */
+/* on 
+._1t2u{
+    margin-left: 74px;
+}
+._1enh {
+    position: fixed;
+    max-width: 74px;
+    z-index: 300; /*this value needs to be that high to overwrite the header (._673w)
+    background: inherit;
+}
+*/
+    
 /* icon toggle*/
 /* on
 ._1enh:hover ._2j6{
