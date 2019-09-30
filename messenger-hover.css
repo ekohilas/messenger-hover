@@ -89,7 +89,7 @@
 }
 
 /* on top toggle by mmacq */
-/* z-index needs to be that high to overwrite the header (._673w)*/
+/* z-index needs to be that high to be on top of the header (._673w)*/
 /* on 
 ._1t2u{
     margin-left: 74px;
