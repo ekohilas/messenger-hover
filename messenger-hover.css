@@ -31,11 +31,11 @@
 ._1enh._7q1s {
     flex-basis: 74px;
     min-width: 74px;
-    transition: flex-basis 0.1s, min-width 0.1s;
+    transition: flex-basis 0.1s, min-width 0.5s;
 }
 .safari.webkit ._1enh {
     -webkit-flex-basis: 74px;
-    -webkit-transition: -webkit-flex-basis 0.1s, min-width 0.1s;
+    -webkit-transition: -webkit-flex-basis 0.5s, min-width 0.5s;
 }
   
 /* customizable sizing */
@@ -106,20 +106,20 @@
 /* icon toggle*/
 /* on
 ._1enh:hover ._2j6{
-    -webkit-transition-duration: 0.1s !important;
+    -webkit-transition-duration: 0.5s !important;
     bottom: 16px !important;
     right: 10px !important;
 }
 ._2j6{
-    -webkit-transition-duration: 0.1s !important;
+    -webkit-transition-duration: 0.5s !important;
     bottom: 9px !important;
     right: 11px !important;
 }
 */
 /* off
 ._1enh:hover ._2j6{
-    -webkit-transition-duration: 0.1s !important;
-    -webkit-transition-delay: 0.1s !important;
+    -webkit-transition-duration: 0.5s !important;
+    -webkit-transition-delay: 051s !important;
     visibility: visible !important;
 }
 ._2j6{
@@ -130,13 +130,13 @@
 /*search bar toggle*/
 /* on
 ._5iwm{
-    -webkit-transition-duration: 0.1s !important;
+    -webkit-transition-duration: 0.5s !important;
     height: 0px !important;
     padding: 0px !important;
     visibility: hidden !important;
 }
 ._1enh:hover ._5iwm{
-    -webkit-transition-duration: 0.1s;
+    -webkit-transition-duration: 0.5s;
     height: 100% !important;
     padding: 12px !important;
     visibility: visible !important;
