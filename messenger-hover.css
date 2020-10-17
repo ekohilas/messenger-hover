@@ -43,6 +43,7 @@
     flex-basis: 25%;
     max-width: 420px;
     min-width: 320px;
+    transition 0.7s;
 }
 .safari.webkit ._1enh:hover {
     -webkit-flex-basis: 25%;
