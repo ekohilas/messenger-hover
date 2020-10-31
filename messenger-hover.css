@@ -30,14 +30,14 @@
 /*side bar size change*/
 ._1enh._7q1s {
     flex-basis: 74px;
-    min-width: 74px;
+    min-width: 80px;
     transition: flex-basis 0.1s, min-width 0.1s;
 }
 .safari.webkit ._1enh {
     -webkit-flex-basis: 74px;
     -webkit-transition: -webkit-flex-basis 0.1s, min-width 0.1s;
 }
-  
+
 /* customizable sizing */
 ._1enh:hover {
     flex-basis: 25%;
@@ -90,7 +90,7 @@
 
 /* on top toggle by mmacq */
 /* z-index needs to be that high to be on top of the header (._673w)*/
-/* on 
+/* on
 ._1t2u{
     margin-left: 74px;
 }
@@ -102,7 +102,7 @@
     border-right: 1px solid rgba(0, 0, 0, .10);
 }
 */
-    
+
 /* icon toggle*/
 /* on
 ._1enh:hover ._2j6{
