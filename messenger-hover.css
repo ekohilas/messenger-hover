@@ -5,16 +5,16 @@
 
 /*no idea*/
 ._2ogr::before {
-    content: none
+    content: none;
 }
 ._1enh:hover ._2ogr::before {
-    content: ''
+    content: '';
 }
 
 /*unread color*/
 ._1ht3._1ht1 {
     background-color: rgba(0, 132, 255, .2);
-    -webkit-transition: background-color .5s
+    -webkit-transition: background-color .5s;
 }
 /*non icon stuff*/
 ._1ht5 ._1qt4 {
@@ -49,24 +49,24 @@
 }
 /*hide "messenger" text*/
 ._36ic ._1tqi {
-    display: none
+    display: none;
 }
 ._1enh:hover ._36ic ._1tqi {
-    display: inline-block
+    display: inline-block;
 }
 
 /*messenger header centering*/
 ._36ic {
-    justify-content: center
+    justify-content: center;
 }
 .safari.webkit ._36ic {
-    -webkit-justify-content: center
+    -webkit-justify-content: center;
 }
 ._1enh:hover ._36ic {
-    justify-content: space-between
+    justify-content: space-between;
 }
 ._1enh:hover .safari.webkit ._36ic {
-    -webkit-justify-content: space-between
+    -webkit-justify-content: space-between;
 }
 
 /*new message tab*/
@@ -74,7 +74,7 @@
     overflow-x: hidden;
 }
 ._1bqr {
-    display: none
+    display: none;
 }
 ._1enh:hover ._1bqr {
     display: inline-block;
@@ -82,10 +82,10 @@
 
 /*option gear*/
 ._4kzu {
-    display: none
+    display: none;
 }
 ._1enh:hover ._4kzu {
-    display: inline-block
+    display: inline-block;
 }
 
 /* on top toggle by mmacq */
